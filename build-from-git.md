@@ -1,4 +1,4 @@
-# How to build Config::Model from git repository
+# How to build Config::Model::Backend::Yaml from git repository
 
 `Config::Model` is build with [Dist::Zilla](http://dzil.org/). This
 pages details how to install the tools and dependencies required to
@@ -30,7 +30,7 @@ NB: The author would welcome pull requests that explains how to
 install these tools and dependencies using native package of other
 distributions.
 
-## Build Config::Model
+## Build Config::Model::Backend::Yaml
 
 Run
 
