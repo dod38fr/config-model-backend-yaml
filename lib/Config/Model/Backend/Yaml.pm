@@ -4,7 +4,7 @@ use 5.10.1;
 use Carp;
 use strict;
 use warnings;
-use Config::Model 2.130;
+use Config::Model 2.131;
 use Config::Model::Exception;
 use File::Path;
 use Log::Log4perl qw(get_logger :levels);
