@@ -43,7 +43,7 @@ sub read {
     return 0 unless $args{file_path}->exists;    # no file to read
 
     # load yaml file
-    my $yaml = $args{file_path}->slurp_utf8;
+    my $yaml = $args{file_path}->slurp_raw;
 
     # convert to perl data
     my $perl_data = Load($yaml) ;
@@ -88,7 +88,7 @@ sub write {
 
     my $yaml = Dump( $perl_data );
 
-    $args{file_path}->spew_utf8($yaml);
+    $args{file_path}->spew_raw($yaml);
 
     return 1;
 }
