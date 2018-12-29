@@ -1,5 +1,9 @@
 {{$NEXT}}
 
+2.133 2018-12-29
+
+  * fix read/write of UTF-8 data
+
 2.132 2018-12-16
 
   * Depends on Config::Model 2.131
