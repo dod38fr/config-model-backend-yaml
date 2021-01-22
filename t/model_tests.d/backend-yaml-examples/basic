@@ -5,3 +5,7 @@ localhost:
 bilbo:
   ipaddr: 192.168.0.1
 yada:
+
+# Local Variables:
+# mode: yaml
+# End: 
